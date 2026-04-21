@@ -68,3 +68,40 @@ The script will display:
 
 
 
+## Example Usage
+
+```
+============================================================
+LEAD SPLITTER TOOL
+============================================================
+
+This tool splits leads from an Excel file into multiple
+sheets with a specified number of leads per sheet.
+
+Enter the path to the Excel file: sample.xlsx
+
+Enter the number of leads required per sheet (positive integer): 5000
+
+Processing: sample.xlsx
+Leads per sheet: 5000
+
+Saved file: sample.xlsx
+Total rows loaded: 26368
+Unique leads: 26368
+Duplicates removed: 0
+Sheets created: 6
+
+No duplicates found.
+```
+
+
+
+## Tips
+
+For issues or questions, check the following:
+1. Ensure Python and openpyxl are installed
+2. Verify the Excel file path is correct
+3. Ensure the Excel file is not corrupted
+4. If permission error, Close the Excel file if it's open, then run the script again. Or wait a few moments and retry.
+5. The number of leads per sheet must be a positive integer (e.g., 5000, not 5000.5 or -100).
+6. Make sure the file has at least headers in the first row

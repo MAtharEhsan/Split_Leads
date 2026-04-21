@@ -1,12 +1,3 @@
-"""
-Usage:
-    python split_leads.py <excel_file> <leads_per_sheet>
-
-Reads all leads from the workbook, removes duplicates, splits the unique
-leads into sheets of size <leads_per_sheet>, and prints duplicate rows at
-the end.
-"""
-
 import os
 import re
 import sys
